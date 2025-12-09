@@ -1,0 +1,7 @@
+opencv-contrib-python==4.10.0.84
+opencv-python==4.8.0.76
+torch==1.10.0
+torchaudio==0.10.0
+torchfile==0.1.0
+torchvision==0.11.0
+numpy==1.24.4
