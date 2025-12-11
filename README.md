@@ -34,14 +34,13 @@ Degraded image understanding remains a significant challenge in computer vision.
 ## 📈 Visual Results
 
 ### Activation Distribution Alignment
-激活分布对比图
-![Activation Distribution]
+<!-- 激活分布对比图![Activation Distribution] -->
+*QuAC reduces the activation distribution gap between HQ and LQ images (KLD: 0.216→0.205)*
 <p align="center">
   <img src="assets/fig_mtv_dist.png" alt="fig_mtv_dist" width="600"/>
   <br>
 </p>
 <!-- (assets/fig_mtv_dist.png) -->
-*QuAC reduces the activation distribution gap between HQ and LQ images (KLD: 0.216→0.205)*
 
 ### Qualitative Comparisons
 *QuAC produces clearer structures and fewer artifacts in image restoration tasks*
