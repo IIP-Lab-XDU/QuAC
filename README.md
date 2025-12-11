@@ -3,9 +3,8 @@ Quality-Adaptive Activation for Degraded Image Understanding
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/abs/XXXX.XXXXX)
 [![project](https://img.shields.io/badge/Project-QuAC-blue)](https://github.com/IIP-Lab-XDU/QuAC.git)
-<!-- [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE) -->
 ![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-green)
-![PyTorch 1.9+](https://img.shields.io/badge/PyTorch-1.9%2B-orange)
+![PyTorch 1.9+](https://img.shields.io/badge/PyTorch-1.9%2B-orange)ß
 
 **QuAC** is a novel **Q**uality-**a**daptive **A**ctivation that enables deep networks to dynamically adjust feature representations based on input image quality, significantly enhancing robustness against various degradations.
 
@@ -43,7 +42,7 @@ Degraded image understanding remains a significant challenge in computer vision.
 *QuAC produces clearer structures and fewer artifacts in image restoration tasks*
 
 <p align="center">
-  <img src="assets/fig_ast_sinsr.png" alt="QuAC Framework" width="600"/>
+  <img src="assets/fig_ast_sinsr.png" alt="QuAC Framework" width="400"/>
   <br>
   <!-- <em>图2: AST\SinST</em> -->
 </p>

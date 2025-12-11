@@ -92,5 +92,7 @@ if __name__ == "__main__":
     # 提取特征
     with torch.no_grad():
         _, _, _, _, model_feat, model_feat_2, _, _, q = quality_model(inputs.to(device), inputs_2.to(device))
+        # model_feat.unsqueeze(2).unsqueeze(3)
 
     print("CONTRIQUE feature shape:", q.shape)  # 输出: torch.Size([8, 2048, 1, 1])
+    
