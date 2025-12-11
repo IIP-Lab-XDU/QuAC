@@ -4,7 +4,7 @@ Quality-Adaptive Activation for Degraded Image Understanding
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/abs/XXXX.XXXXX)
 [![project](https://img.shields.io/badge/Project-QuAC-blue)](https://github.com/IIP-Lab-XDU/QuAC.git)
 ![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-green)
-![PyTorch 1.9+](https://img.shields.io/badge/PyTorch-1.9%2B-orange)ß
+![PyTorch 1.9+](https://img.shields.io/badge/PyTorch-1.9%2B-orange)
 
 **QuAC** is a novel **Q**uality-**a**daptive **A**ctivation that enables deep networks to dynamically adjust feature representations based on input image quality, significantly enhancing robustness against various degradations.
 
@@ -13,7 +13,7 @@ Degraded image understanding remains a significant challenge in computer vision.
 
 # Pipeline
 <p align="center">
-  <img src="assets/fig_quac_pipeline.png" alt="QuAC Framework" width="600"/>
+  <img src="assets/fig_quac_pipeline.png" alt="fig_quac_pipeline" width="600"/>
   <br>
   <!-- <em>图1: QuAC整体框架示意图</em> -->
 </p>
@@ -35,14 +35,19 @@ Degraded image understanding remains a significant challenge in computer vision.
 
 ### Activation Distribution Alignment
 激活分布对比图
-![Activation Distribution](assets/fig_mtv_dist.png)
+![Activation Distribution]
+<p align="center">
+  <img src="assets/fig_mtv_dist.png" alt="fig_mtv_dist" width="600"/>
+  <br>
+</p>
+<!-- (assets/fig_mtv_dist.png) -->
 *QuAC reduces the activation distribution gap between HQ and LQ images (KLD: 0.216→0.205)*
 
 ### Qualitative Comparisons
 *QuAC produces clearer structures and fewer artifacts in image restoration tasks*
 
 <p align="center">
-  <img src="assets/fig_ast_sinsr.png" alt="QuAC Framework" width="400"/>
+  <img src="assets/fig_ast_sinsr.png" alt="fig_ast_sinsr" width="600"/>
   <br>
   <!-- <em>图2: AST\SinST</em> -->
 </p>
@@ -50,14 +55,14 @@ Degraded image understanding remains a significant challenge in computer vision.
 
 *QuAC generates segmentation results with clearer boundaries and more complete structures in complex scenes, significantly outperforming other methods.*
 <p align="center">
-  <img src="assets/fig_sam.png" alt="QuAC Framework" width="600"/>
+  <img src="assets/fig_sam.png" alt="fig_sam" width="600"/>
   <br>
   <!-- <em>图4: RobustSAM</em> -->
 </p>
 
 *QuAC improves segmentation accuracy on degraded images under challenging scenarios.*
 <p align="center">
-  <img src="assets/fig_face_lq_hq.png" alt="QuAC Framework" width="600"/>
+  <img src="assets/fig_face_lq_hq.png" alt="fig_face_lq_hq" width="600"/>
   <br>
   <!-- <em>图5: SegNeXt</em> -->
 </p>
